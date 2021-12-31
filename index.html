@@ -1,343 +1,373 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="Rust pour les curieux" />
-        <meta name="author" content="Thalgi" />
-        <title>Rust</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-light" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/navbar-logo.svg"alt="" /></a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars ml-1"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto ">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger text-body" href="#what">C'est quoi ?</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger text-body" href="#portfolio">Our work</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger text-body" href="#about">Histoire</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger text-body" href="#team">Team</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger text-body" href="#contact"> A propos</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="container" id="maincontainer">
-                        <div class="masthead-heading text-uppercase">RUST</div>
-                        <div class="masthead-subheading">Performance Fiabilité Productivité</div>
-            </div>
-        </header>
-        <!-- Services-->
-        <section class="page-section" id="what">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase ">C'est quoi ?</h2>
-                </div>
-
-                <div class="row text-center">
-                    <div class="col-md-7 bg-light my-2 mx-1">
-                            <h4 class="my-md-0 text-md-left">Rust </h4>
-                        <p class="text-muted"> c'est un langage de programmation <span title="plusieurs type de programmation">multiparadigme</span>, conçu pour dans l'objectif d'allié performance, sureté et productivité.  </p>
-                    </div>
-                    <div class="col-md-4 bg-light my-2">
-                            <h4 class="my-md-0">De qui ? </h4>
-                        <p class="text-muted">Il est open source et maintenu par la Fondation Mozilla</p>
-                    </div>
-                </div>
-
-                <div class="row text-center my-2 mx-2">
-                    <div class="col-md-4 bg-light">
-                        <h4 class="my-md-0">Pourquoi ?</h4>
-                        <p class="text-muted">C'est un langage sans fuite de mémoire avec des performances avoisinant le C et C++</p>
-                    </div>
-
-                    <div class="col-md-7 bg-light my-2">
-                        <h4 class="my-md-0 text-md-left">Son utilisation </h4>
-                        <p class="text-muted"> c'est un langage de programmation compilé conçu depuis 2010 dans un cadre Open Source par la Fondation Mozilla </p>
-                    </div>
-
-                </div>
-
-
-            </div>
-        </section>
-        <!-- Portfolio Grid-->
-        <section class="page-section bg-light" id="portfolio">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Our work</h2>
-                    <h3 class="section-subheading text-muted">Some of our projects</h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6 col-sm-6 mb-4">
-                        <div class="portfolio-item">
-                                <img class="img-fluid" src="assets/img/portfolio/Rustship.jpg" alt="" />
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Rusted Sea</div>
-                                <div class="portfolio-caption-subheading text-muted">Build</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-6 mb-4">
-                        <div class="portfolio-item">
-                                <img class="img-fluid" src="assets/img/portfolio/mystic.jpg" alt="" />
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Mystical boat</div>
-                                <div class="portfolio-caption-subheading text-muted">Build</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-6 mb-4">
-                        <div class="portfolio-item">
-                                <img class="img-fluid" src="assets/img/portfolio/submarine_adventure_final.jpg" alt="" />
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Submarine Adventure</div>
-                                <div class="portfolio-caption-subheading text-muted">Marketplace Map</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-6 mb-4">
-                        <div class="portfolio-item">
-                                <img class="img-fluid" src="assets/img/portfolio/TurtleIslandRender2_1.jpg" alt="" />
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Tutrle Island</div>
-                                <div class="portfolio-caption-subheading text-muted">Marketplace Map</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-6 mb-4">
-                        <div class="portfolio-item">
-                                <img class="img-fluid" src="assets/img/portfolio/PLANETS.jpg" alt="" />
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Planets</div>
-                                <div class="portfolio-caption-subheading text-muted">Marketplace Map</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-6 mb-4 mb-lg-0">
-                        <div class="portfolio-item">
-                                <img class="img-fluid" src="assets/img/portfolio/BOATS_BIOMES.jpg" alt="" />
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Boat Biomes</div>
-                                <div class="portfolio-caption-subheading text-muted">Marketplace Map</div>
-                            </div>
-                        </div>
-                    </div>
-<!--                    <div class="col-lg-6 col-sm-6 mb-4 mb-sm-0">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="" alt="" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">FILLER</div>
-                                <div class="portfolio-caption-subheading text-muted">FILLER</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-6">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="" alt="" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">FILLER</div>
-                                <div class="portfolio-caption-subheading text-muted">FILLER</div>
-                            </div>
-                        </div> -->
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="Rust pour les curieux"/>
+    <meta name="author" content="Thalgi"/>
+    <title>Rust</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"/>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet"
+          type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css"/>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet"/>
+</head>
+<body id="page-top">
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-light" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/navbar-logo.svg" alt=""/></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars ml-1"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto text-uppercase ">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger text-body" href="#what">C'est quoi ?</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger text-body" href="#portfolio">Exemple</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger text-body" href="#about">Histoire</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger text-body" href="#team">Utilisation</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger text-body" href="#contact"> A propos</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Masthead Fini-->
+<header class="masthead">
+    <div class="container" id="maincontainer">
+        <div class="masthead-heading text-uppercase">RUST</div>
+        <div class="masthead-subheading">Ses Objectifs ?</div>
+        <div class="masthead-subheading">Performance Fiabilité Productivité</div>
+    </div>
+</header>
+<!-- Services Fini -->
+<section class="page-section" id="what">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase ">C'est quoi ?</h2>
+        </div>
+        <div class="row">
+            <div class="col-sm-7">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Rust</h5>
+                        <p class="card-text">c'est un langage <span title="plusieurs type de programmation">multiparadigme</span>
+                            créée depuis 2006 et disponible depuis 2015. Il est conçu dans l’objectif de répondre à des
+                            critères importants de performance, de sureté et de productivité.</p>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- About fini -->
-        <section class="page-section" id="about">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase ">L'évolution de RUST</h2>
-                    <h3 class="section-subheading">petit chronogramme des étapes clées de ce langage</h3>
-                </div>
-                <ul class="timeline">
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/Graydon.PNG" alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>2006</h4>
-                                <h4 class="subheading">Un projet personnel </h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Le langage n'est encore qu'un projet personnel de Graydon Hoare durant ses années en tant que développeur Mozilla </p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/Mozilla_Foundation_Logo.svg.png" alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>2009/2010</h4>
-                                <h4 class="subheading">Le langage est annoncé</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Mozilla commence a sponsorisé le projet puis l'annonce même en 2010</p></div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/RUSTHIST.jpg" alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>2015</h4>
-                                <h4 class="subheading">Sortie du premier compilateur stable Rust</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Après 3 années de travaux depuis la pré-alpha de Janvier 2012, Rust devient accessible à tout programmeur</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/moz.PNG  " alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>Août 2020 </h4>
-                                <h4 class="subheading">Le projet rust quitte Mozilla</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Après la période de la pandémie et une vague de licensiement le projet Rust ne possède plus d'équipe au sein de Mozilla</p></div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/rustfoundation.png" alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>Février 2021</h4>
-                                <h4 class="subheading">Création de la Fondation Rust</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Fonctionnant sur le même principe que la Fondation Mozilla elle a ppoour but d'assurer le support ainsi que le développement du langage</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/android.PNG" alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>Avril 2021 </h4>
-                                <h4 class="subheading">Coup de pouce de Google</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Google annonce le support de Rust en tant qu'alternative de C/C++ sur les projets Open Source Android</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <!-- Team-->
-        <section class="page-section bg-light" id="team">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading ">Our current partner</h2>
-                    <h3 class="section-subheading text-muted">We are curently looking for a new partner</h3>
-                <!--
-                <div class="row" >
-                    <div class="col-lg-12">
-                        <div class="team-member">
-                            <img class="" src="assets/img/logos/inpixel.png" alt="" />
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-8 mx-auto text-center" style="color: transparent;"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
-                </div>
-                -->
-                </div>
-                
-            </div>
-        </section>
-        <!-- Clients-->
-        <div class="py-5" >
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/" alt="" /></a>
+            <div class="col-sm-5">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Il est très similaire au C++</h5>
+                        <p class="card-text"> dans sa syntaxe et possèdent des fonctionnalités qui assurent une sécurité
+                            de la mémoire sur ses traitements et ses accès, menants à des gains importants de
+                            performance dans certains paradigmes.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Liens Finis -->
-        <section class="page-section" id="contact">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading">Encore curieux ?</h2>
-                    <h3 class="section-subheading text-purple">Tu peux visiter les liens suivants qui te guideront dans ta découverte de Rust</h3>
+        <div class="row my-4">
+            <div class="col-sm-8">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">C’est un langage jeune</h5>
+                        <p class="card-text"> qui est de plus en plus utilisé dans les composants systèmes critiques de
+                            l’industrie par son haut niveau de sécurité (Microsoft est un des premiers à expérimenter
+                            sur ses composants clés avec ce langage)</p>
+                    </div>
                 </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Il est aussi dans Linux ! </h5>
+                        <p class="card-text"> Rust c’est aussi aujourd’hui le deuxième langage officiel de Linux ! </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- Portfolio Grid fini-->
+<section class="page-section bg-green" id="portfolio">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Mettons un peu les mains dans la pâte</h2>
+            <h3 class="section-subheading text-light">Quelques exemples pour se familiariser avec la syntaxe </h3>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-10">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Le plus simple: "Hello World !"</h5>
+                        <p class="card-text">Hello World c'est l'exemple de base que tout le monde connait en
+                            programmation, il prend la forme suivante ci-dessous en Rust : </p>
+
+                    </div>
+                    <div class="card-body">
+                                <pre>
+// Ceci est un commentaire
+// Ceci est la fonction principale ou main
+fn main() {
+    // Les commandes ou méthodes dans celle ci
+    // sont éxécutés au lancement du programme
+    // compilé
+
+    // ici une commande simple : Hello World !
+    println!("Hello World!");
+}
+                                </pre>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Testez ce code ici</h5>
+                        <p class="card-text"> Rust Playground est un compilateur en ligne pour Rust, n'hésitez pas à
+                            vous en servir pour découvrir le langage </p>
+                        <a class="btn btn-primary"
+                           href="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=%2F%2F%20Ceci%20est%20un%20commentaire%20%0A%0A%2F%2F%20Ceci%20est%20la%20fonction%20principale%20ou%20main%0Afn%20main()%20%7B%0A%20%20%20%20%2F%2F%20Les%20commandes%20ou%20m%C3%A9thodes%20dans%20celle%20ci%20sont%20%C3%A9x%C3%A9cut%C3%A9s%20au%20lancement%20du%20programme%20compil%C3%A9%20%0A%0A%20%20%20%20%2F%2F%20ici%20une%20commande%20simple%20%3A%20Hello%20World%20!%0A%20%20%20%20println!(%22Hello%20World!%22)%3B%0A%7D%0A%0A"
+                           role="button"> Exemple Hello World !</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="card">
+                    <div class="card-body">
+                        <a class="btn btn-primary my-4" href="https://www.rust-lang.org/fr/learn" role="button">Apprendre Rust</a>
+                        <a class="btn btn-primary mb-4" href="https://www.rust-lang.org/fr/tools/install" role="button"> Package Rust</a>
+                        <a class="btn btn-primary mb-4" href="https://play.rust-lang.org/" role="button"> IDE en Ligne Rust</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Exemple plus technique : Fizzbuzz</h5>
+                        <p class="card-text"> l'exercice suivant est un exemple de l'exercie d'algorithmie Fizzbuzz,
+                            vous pouvez consulter le code au lien suivant </p>
+                        <a class="btn btn-primary"
+                           href="https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=%2F%2FContrairement%20%C3%A0%20C%2FC%2B%2B%2C%20Il%20n'y%20a%20pas%20de%20restriction%20sur%20l'odre%20ou%20la%20d%C3%A9finition%20des%20fonctions%0Afn%20main()%20%7B%0A%20%20%20%20%2F%2F%20On%20utilise%20notre%20fonction%20fizzbuzz%20ici%0A%20%20%20%20fizzbuzz_vers(100)%3B%0A%7D%0A%0A%2F%2F%20Fonction%20qui%20retourne%20une%20valeur%20bool%C3%A9ene%0Afn%20est_divisible_par(n%3A%20u32%2C%20denominateur%3A%20u32)%20-%3E%20bool%20%7B%0A%20%20%20%20%2F%2F%20test%20bouchonn%C3%A9%0A%20%20%20%20if%20denominateur%20%3D%3D%200%20%7B%0A%20%20%20%20%20%20%20%20return%20false%3B%0A%20%20%20%20%7D%0A%0A%20%20%20%20%2F%2F%20C'est%20une%2C%20le%20mot%20cl%C3%A9%20%22return%20n'est%20pas%20n%C3%A9cc%C3%A9ssaire%22%0A%20%20%20%20n%20%25%20denominateur%20%3D%3D%200%0A%7D%0A%0A%2F%2F%20Fonction%20qui%20ne%20reourne%20pas%20une%20valeur%2C%20elle%20retourne%20uniquement%20le%20type%20de%20sa%20valeur%20%60()%60%0Afn%20fizzbuzz(n%3A%20u32)%20-%3E%20()%20%7B%0A%20%20%20%20if%20est_divisible_par(n%2C%2015)%20%7B%0A%20%20%20%20%20%20%20%20println!(%22fizzbuzz%22)%3B%0A%20%20%20%20%7D%20else%20if%20est_divisible_par(n%2C%203)%20%7B%0A%20%20%20%20%20%20%20%20println!(%22fizz%22)%3B%0A%20%20%20%20%7D%20else%20if%20est_divisible_par(n%2C%205)%20%7B%0A%20%20%20%20%20%20%20%20println!(%22buzz%22)%3B%0A%20%20%20%20%7D%20else%20%7B%0A%20%20%20%20%20%20%20%20println!(%22%7B%7D%22%2C%20n)%3B%0A%20%20%20%20%7D%0A%7D%0A%0A%2F%2F%20u32%20signifie%20un%20Int%20sur%2032%20bit%20non%20d%C3%A9clar%C3%A9%20%0Afn%20fizzbuzz_vers(n%3A%20u32)%20%7B%0A%20%20%20%20for%20n%20in%201..%3Dn%20%7B%0A%20%20%20%20%20%20%20%20fizzbuzz(n)%3B%0A%20%20%20%20%7D%0A%7D%0A"
+                           role="button"> Exemple Fizzbuzz !</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Installer Rust </h5>
+                        <p class="card-text"> Rust c’est aujourd’hui facile de l'installer, il existe une solution en
+                            ligne de commande ci dessous et un package 32bit ou 64bit en exécutable, </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- About fini -->
+<section class="page-section" id="about">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase ">L'évolution de RUST</h2>
+            <h3 class="section-subheading">petit chronogramme des étapes clées de ce langage</h3>
+        </div>
+        <ul class="timeline">
+            <li>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/Graydon.PNG"
+                                                 alt=""/></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>2006</h4>
+                        <h4 class="subheading">Un projet personnel </h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">Le langage n'est encore qu'un projet personnel de
+                        Graydon Hoare durant ses années en tant que développeur Mozilla </p></div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image"><img class="rounded-circle img-fluid"
+                                                 src="assets/img/Mozilla_Foundation_Logo.svg.png" alt=""/></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>2009/2010</h4>
+                        <h4 class="subheading">Le langage est annoncé</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">Mozilla commence a sponsorisé le projet puis
+                        l'annonce même en 2010</p></div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/RUSTHIST.jpg" alt=""/>
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>2015</h4>
+                        <h4 class="subheading">Sortie du premier compilateur stable Rust</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">Après 3 années de travaux depuis la pré-alpha de
+                        Janvier 2012, Rust devient accessible à tout programmeur</p></div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/moz.PNG  " alt=""/>
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Août 2020 </h4>
+                        <h4 class="subheading">Le projet rust quitte Mozilla</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">Après la période de la pandémie et une vague de
+                        licensiement le projet Rust ne possède plus d'équipe au sein de Mozilla</p></div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/rustfoundation.png"
+                                                 alt=""/></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Février 2021</h4>
+                        <h4 class="subheading">Création de la Fondation Rust</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">Fonctionnant sur le même principe que la Fondation
+                        Mozilla elle a ppoour but d'assurer le support ainsi que le développement du langage</p></div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/android.PNG"
+                                                 alt=""/></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Avril 2021 </h4>
+                        <h4 class="subheading">Coup de pouce de Google</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">Google annonce le support de Rust en tant
+                        qu'alternative de C/C++ sur les projets Open Source Android</p></div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image">
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+<!-- Team Fini-->
+<section class="page-section bg-green" id="team">
+    <sections>
+
+        <div class="container">
+            <div class="feature-grid-container grid grid--columns">
+
+                <div class="feature-grid-text">
+                    <h2 class="fs-700 text-uppercase text-compressed"> Une diversité d'applications utilise <span
+                            class="text-primary">Rust</span> comme technologie centrale de leurs produits </h2>
+                    <p>Il est donc déjâ aujourd'hui <strong> intégré </strong> aux produits de notre quotidien tels que
+                        le navigateur Firefox ou Discord</p>
+                </div>
+
+                <div class="grid feature-grid">
+                    <a href="#" aria-label="submarine adventure"><img src="images/dropbox.jpg" alt=""></a>
+                    <a href="#" aria-label="Turtle Island"><img src="images/npm.jpg" alt=""></a>
+                    <a href="#" aria-label="Mystic boat"><img src="images/discord.png" alt=""></a>
+                    <a href="#" aria-label="Dex liquidity oracle"><img src="images/figma.png" alt=""></a>
+                    <a href="#" aria-label="Synthetic curve"><img src="images/firefox.jpg" alt=""></a>
+                    <a href="#" aria-label="Anti slippage"><img src="images/Microsoft-Azure-Logo.jpg" alt=""></a>
+                </div>
+
+            </div>
+        </div>
+    </sections>
+</section>
+<!-- Clients-->
+<div class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/" alt=""/></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Liens Finis -->
+<section class="page-section" id="contact">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading">Encore curieux ?</h2>
+            <h3 class="section-subheading text-purple">Tu peux visiter les liens suivants qui te guideront dans ta
+                découverte de Rust</h3>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                             <img class="servicesicon" src="assets/img/rust.png">
 
                         </span>
-                        <h4 class="my-3 text-light">Apprendre Rust</h4>
-                        <p class="text-light"> La documentation de Rust contient tout ce qu'il faut pour se familiariser avec le language et ses spécificités  </p>
-                    </div>
-                    <div class="col-md-4">
+                <h4 class="my-3 text-light">Apprendre Rust</h4>
+                <p class="text-light"> La documentation de Rust contient tout ce qu'il faut pour se familiariser avec le
+                    language et ses spécificités </p>
+            </div>
+            <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                             <img class="servicesicon" src="assets/img/rustfoundation.png">
 
                         </span>
-                        <h4 class="my-3 text-light">Découvrir la fondation Rust</h4>
-                        <p class="text-light"> Découvrez ici la fondation Rust qui a un rôle de support dans le développement et la maintenance de ce language </p>
-                    </div>
-                    <div class="col-md-4">
+                <h4 class="my-3 text-light">Découvrir la fondation Rust</h4>
+                <p class="text-light"> Découvrez ici la fondation Rust qui a un rôle de support dans le développement et
+                    la maintenance de ce language </p>
+            </div>
+            <div class="col-md-4">
                         <span class="fa-stack fa-4x">
 
                             <img class="servicesicon" src="assets/img/IUT.PNG">
                         </span>
-                        <h4 class="my-3 text-light">IUT Informatique Bordeaux</h4>
-                        <p class="text-light"> Découvrez l'école qui permet la mise en valeur de ce language à l'aide de ce site web</p>
-                    </div>
-                </div>
+                <h4 class="my-3 text-light">IUT Informatique Bordeaux</h4>
+                <p class="text-light"> Découvrez l'école qui permet la mise en valeur de ce language à l'aide de ce site
+                    web</p>
             </div>
-        </section>
-        <!-- Footer fini-->
-        <footer class="footer py-4">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-left">Copyright © Thalgi</div>
-                    <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/rustlang"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="https://github.com/rust-lang"><i class="fab fa-github"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="https://www.youtube.com/channel/UCaYhcUwRBNscFNUKTjgPFiA"><i class="fab fa-youtube"></i></a>
-                    </div>
-                    <div class="col-lg-4 text-lg-right">
-                        Site réalisé dans le cadre d'un projet étudiant
-                    </div>
-                </div>
+        </div>
+    </div>
+</section>
+<!-- Footer fini-->
+<footer class="footer py-4">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-4 text-lg-left">Copyright © Thalgi</div>
+            <div class="col-lg-4 my-3 my-lg-0">
+                <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/rustlang"><i
+                        class="fab fa-twitter"></i></a>
+                <a class="btn btn-dark btn-social mx-2" href="https://github.com/rust-lang"><i
+                        class="fab fa-github"></i></a>
+                <a class="btn btn-dark btn-social mx-2" href="https://www.youtube.com/channel/UCaYhcUwRBNscFNUKTjgPFiA"><i
+                        class="fab fa-youtube"></i></a>
             </div>
-        </footer>
+            <div class="col-lg-4 text-lg-right">
+                Site réalisé dans le cadre d'un projet étudiant
+            </div>
+        </div>
+    </div>
+</footer>
 
-        
-        <!-- Bootstrap core JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Third party plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Contact form JS-->
-        <script src="assets/mail/jqBootstrapValidation.js"></script>
-        <script src="assets/mail/contact_me.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+
+<!-- Bootstrap core JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Third party plugin JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<!-- Contact form JS-->
+<script src="assets/mail/jqBootstrapValidation.js"></script>
+<script src="assets/mail/contact_me.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+</body>
 </html>
