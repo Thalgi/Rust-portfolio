@@ -3811,7 +3811,7 @@ img::-moz-selection {
 header.masthead {
     text-align: center;
     color: #fff;
-    background-image: url(../assets/img/header-bg.jpg);
+    background-image: url(https://thalgi.github.io/Rust-portfolio/assets/img/header-bg.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
