@@ -184,6 +184,7 @@ sections .container {
     padding: 0rem 2rem;
     max-width: 75rem;
     margin: 0 auto;
+    overflow-x: hidden;
 }
 
 .flex {
